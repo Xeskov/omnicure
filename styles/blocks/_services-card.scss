@@ -1,0 +1,53 @@
+.services-card {
+    min-width: 270px;
+    min-height: 250px;
+    
+    border-radius: var(--border-radius);
+    background-color: var(--color--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    gap: 1rem;
+    
+
+    @include dekstop {
+        min-width: 230px;
+        min-height: 210px;
+
+    }
+    @include mobile {
+        min-width: 200px;
+        min-height: 180px;
+        
+    }
+    
+
+    &__image {
+        @include square(81px);
+        @include tablet {
+            @include square(77px);
+        }
+        @include mobile {
+            @include square(71px);
+        }
+        fill: var(--color-green);
+    }
+
+    &__description {
+        padding-top: 20px;
+
+    }
+
+    @include hover {
+        transition: var(--transition-duration);
+        background-color: var(--color-green);
+        color: var(--color-light);
+        fill: var(--color-light);
+        transition-duration: var(--transition-duration);
+    }
+  
+      
+}
+

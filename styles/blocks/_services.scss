@@ -1,0 +1,21 @@
+
+.services  {
+    
+
+    &__list {
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 52px;
+
+    }
+
+    &__item {
+        
+        
+    }
+}

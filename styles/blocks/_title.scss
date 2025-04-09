@@ -1,0 +1,54 @@
+
+.title {
+
+    &__inner {
+        @include flex-center;
+        
+        
+        
+        
+        img {
+
+            @include dekstop {
+                @include square(600px)
+            }
+            @include mobile {
+                @include square(350px)
+            }
+            @media (max-width:540px) {
+                display: none;
+            }
+                
+            
+
+        }
+    }
+
+    &__hedline {
+
+        &-h1 {
+            
+
+            span {
+                color: var(--color-green); 
+            }
+        }
+
+        &-p {
+            padding-top: 1.5rem;
+           color: var(--color-gray);
+        }
+    }
+
+
+
+    &__button {
+        height: 48px;
+        margin-top: 1.5rem
+    }
+
+    
+   
+}
+
+

@@ -1,0 +1,79 @@
+
+.header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: var(--color-green);
+
+    @include dekstop {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+    @include mobile {
+        padding-top: 10px ;
+        padding-bottom: 10px;
+    }
+
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    &__logo {
+    }
+
+    &__menu {
+        
+        font-size: 14px;
+        
+
+        &-list {
+            display: flex;
+            align-items: center;
+            column-gap: 40px;
+            }
+
+        &-item { 
+            
+        }
+        
+        &-link {
+            color: var(--color-light);
+            display: flex;
+            align-items: center;
+            height: 40px;
+
+           
+
+            &:hover {
+                transition: background-position 0.6s ease, color 0.6s ease;
+                background: linear-gradient(500deg, var(--color-light), var(--color-gray));
+                background-clip: text;
+                color: transparent;
+                
+            }
+
+            
+        }
+
+    }
+
+    &__button {
+        height: 48px;
+        padding-inline: 18px;
+        font-size: 16px;
+    }
+}
+
+.logo {
+
+    &__image {
+    }
+}
+
+
+
+

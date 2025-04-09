@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Omnicure</title>
+</head>
+<body>
+ <header class="header">
+    <div class="header__inner container">
+        <a href="/" class="header__logo logo">
+            <img src="./img/logo.svg" alt="Omnicure" class="logo__image" width="185" height="54" loading="lazy">
+        </a>
+        <nav class="header__menu hidden-mobile">
+             <ul class="header__menu-list">
+                <li class="header__menu-item">
+                    <a href="/" class="header__menu-link link-gradient">Home</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="/" class="header__menu-link">Services</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="/" class="header__menu-link">Doctors</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="/" class="header__menu-link">About us</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="/" class="header__menu-link">Contact us</a>
+                </li>
+             </ul>
+        </nav>
+        <button class="header__button button button--transparent hidden-mobile" type="button">
+            Login 
+         </button>
+         <button class="header__burger-button burger-button visibale-mobile" type="button"  onclick="mobileOverlay.showModal()">
+            <span class="visually-hidden">Open navigation menu</span>
+         </button>
+        
+    </div>
+ </header>
+
+ <section class="title">
+    <div class="title__inner container">
+      <div class="title__hedline">
+        <h1 class="title__hedline-h1">
+          <span>Healing Elevation</span>
+          <br>Revitalize Your Health
+        </h1>
+        <p class="title__hedline-p">Where Expertise Meets Holistic Healing through Ozone Therapy.</p>
+        <button class="title__button button" type="button">
+        Contact Us Today
+      </button>
+      </div>
+      <img src="./img/banner.svg" alt="Doctor" width="688" height="54" loading="lazy" >
+    </div>
+ </section>
+
+ <main class="content">
+
+  <section class="section container">
+    
+    <header class="section__header">
+      <h2 class="section__title">
+        Our Medical Services
+      </h2>
+      <p class="section__lorem">We are dedicated to serve you <br>best medical services</p>
+    </header>
+
+    <div class="section__body">
+      <div class="services">
+        <ul class="services__list">
+          <li class="services__item">
+            <article class="services-card">
+              <svg class="services-card__image" width="72" height="73" viewBox="0 0 72 73" fill="currentColor" xmlns="http://www.w3.org/2000/svg" loading="lazy">
+                <rect x="2.98737" y="12.6753" width="9.00326" height="8.90322" transform="rotate(-90 2.98737 12.6753)" fill="none"/>
+                <path d="M67.5804 24.8321C68.1841 24.2461 68.1841 23.296 67.5804 22.71L61.4287 16.738C60.825 16.152 59.8464 16.152 59.2427 16.738L25.9672 49.0414C25.3636 49.6274 25.3636 50.5775 25.9672 51.1635L32.119 57.1355C32.7226 57.7215 33.7013 57.7215 34.3049 57.1355L67.5804 24.8321Z" fill="none"/>
+                <path d="M32.6648 60.6926H14.8584V63.6937H32.6648V60.6926Z" fill="none"/>
+                <path d="M59.3492 16.0883C59.9404 15.5144 60.8989 15.5144 61.4901 16.0883L68.0491 22.4556C68.6403 23.0296 68.6403 23.9601 68.0491 24.534L66.9336 25.6169L58.2337 17.1712L59.3492 16.0883Z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M65.7948 26.2696L57.9741 18.6774L57.4427 18.1639L32.7128 42.1713L29.9961 39.534L27.8102 41.6561L40.465 53.9412L42.6509 51.8191L41.242 50.4514L47.5035 44.3728V63.6937H35.3328C34.4434 59.6922 31.5756 57.6915 26.7293 57.6915H20.7938C15.9475 57.6915 13.0797 59.6922 12.1904 63.6937H8.92288V63.6974C2.9874 63.8162 0.0196533 66.816 0.0196533 72.6969H8.92288V69.6959H4.10016C5.25831 67.9733 7.27608 66.6948 9.29385 66.6948H62.3422C64.2793 66.6948 66.2163 67.9733 67.3282 69.6959H20.7938V72.6969H71.2455C71.2455 66.6948 68.2777 63.6937 62.3422 63.6937H56.4067V35.7297L65.9582 26.4572L65.7799 26.2841L65.7948 26.2696ZM53.439 38.6107L50.4713 41.4918V63.6937H53.439V38.6107ZM34.8987 44.2934L57.4439 22.4068L61.4407 26.2869L38.8955 48.1734L34.8987 44.2934ZM26.7293 60.6926C28.6664 60.6926 30.6034 61.9711 31.7153 63.6937H15.8079C16.9197 61.9711 18.8568 60.6926 20.7938 60.6926H26.7293Z" fill="currentColor"/>
+                <path d="M33.9 49.326L27.0603 42.6861L24.8743 44.8082L31.714 51.448L33.9 49.326Z" fill="currentColor"/>
+                <path d="M36.1214 51.4831L39.7146 54.9713L37.5286 57.0933L33.9355 53.6052L36.1214 51.4831Z" fill="currentColor"/>
+                <path d="M11.8906 69.6959H14.8584V72.6969H11.8906V69.6959Z" fill="#28574E"/>
+                <path d="M21.783 25.0436L23.9689 22.9216L21.783 20.7995L23.969 18.6775L26.1549 20.7995L28.3409 18.6774L30.5268 20.7995L28.3408 22.9216L30.5268 25.0437L28.3409 27.1658L26.1549 25.0437L23.969 27.1657L21.783 25.0436Z" fill="currentColor"/>
+                <path d="M7.60599 35.8049L5.42004 37.927L7.60599 40.0491L5.42004 42.1712L7.60599 44.2933L9.79194 42.1712L11.9779 44.2933L14.1638 42.1712L11.9779 40.0491L14.1638 37.927L11.9779 35.8049L9.79194 37.927L7.60599 35.8049Z" fill="currentColor"/>
+                <path d="M2.98758 3.67199V0.670898H11.8908V3.67198L14.8585 3.67199V12.6752H11.8908V15.6763H2.98758V12.6752L2.98758 9.67416H5.95532V12.6752H8.92306V9.67416H11.8908V6.67307H8.92306V3.67199H5.95532V6.67307H2.98758V12.6752L0.0196533 12.6747V3.67139L2.98758 3.67199Z" fill="currentColor"/>
+                </svg>
+              <p class="service-card__description">
+                Well equipped lab
+              </p>
+            </article>
+          </li>
+          <li class="services__item">
+            <article class="services-card">
+              <svg class="services-card__image" width="95" height="86" viewBox="0 0 95 86" fill="none" xmlns="http://www.w3.org/2000/svg" loading="lazy">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2085 36.3612L38.5367 36.3612C41.7027 36.3612 44.8687 39.2634 44.8687 42.1655V53.7743L29.0386 53.7743V56.6765L44.8687 56.6765V59.5787L29.0386 59.5787V62.4808H44.8687V66.8341C44.8687 67.6355 45.5775 68.2852 46.4517 68.2852C47.326 68.2852 48.0348 67.6355 48.0348 66.8341V62.4808H51.201V74.0896H38.5365V76.9918L76.5287 76.9918V74.0896H73.3629V59.5787C73.3629 53.7743 70.1969 50.8721 63.8649 50.8721H54.3666C52.6182 50.8723 51.201 52.1716 51.201 53.7743V59.5787H48.0348V42.1655C48.0348 36.3612 44.8687 33.459 38.5367 33.459H13.2085C6.87648 33.459 3.71045 36.3612 3.71045 42.1655L3.71045 74.0896C1.96191 74.0896 0.544434 75.3889 0.544434 76.9918H29.0386V74.0896H6.87648V62.4808H25.8726V59.5787L6.87648 59.5787V56.6765L25.8726 56.6765V53.7743L6.87648 53.7743L6.87648 42.1655C6.87648 39.2634 10.0425 36.3612 13.2085 36.3612ZM70.1969 65.383V59.5787C70.1969 56.6765 67.0309 53.7743 63.8649 53.7743H54.367V74.0896H70.1969V68.2852H60.6988C60.6988 66.6824 62.1163 65.383 63.8649 65.383H70.1969Z" fill="#28574E"/>
+                <path d="M35.3707 74.0896H32.2046V76.9918H35.3707V74.0896Z" fill="#28574E"/>
+                <path d="M25.8726 16.0459H29.0386V21.8503H25.8726V16.0459Z" fill="#28574E"/>
+                <path d="M22.7066 24.7525C20.958 24.7525 19.5405 26.0518 19.5405 27.6546V36.3612H22.7066V27.6546H32.2046V36.3612H35.3707V27.6546C35.3707 26.0518 33.9532 24.7525 32.2046 24.7525H22.7066Z" fill="#28574E"/>
+                <path d="M13.2085 18.9481H10.0425V21.8503H13.2085V24.7525H16.3745V21.8503H13.2085V18.9481Z" fill="#28574E"/>
+                <path d="M41.7027 21.8503H38.5367V24.7525H41.7027V21.8503Z" fill="#28574E"/>
+                <path d="M41.7027 21.8503H44.8687V18.9481H41.7027V21.8503Z" fill="#28574E"/>
+                <path d="M16.3745 30.5568V27.6546H10.0425V30.5568H16.3745Z" fill="#28574E"/>
+                <path d="M44.8687 27.6546V30.5568H38.5367V27.6546H44.8687Z" fill="#28574E"/>
+                <path d="M14.7915 85.6982C19.1629 85.6982 22.7066 82.4498 22.7066 78.4427C22.7066 74.4356 19.1629 71.1873 14.7915 71.1873C10.4202 71.1873 6.87646 74.4356 6.87646 78.4427C6.87646 82.4498 10.4202 85.6982 14.7915 85.6982Z" fill="#28574E"/>
+                <path d="M55.9498 85.6982C60.3212 85.6982 63.8649 82.4498 63.8649 78.4427C63.8649 74.4356 60.3212 71.1873 55.9498 71.1873C51.5784 71.1873 48.0347 74.4356 48.0347 78.4427C48.0347 82.4498 51.5784 85.6982 55.9498 85.6982Z" fill="#28574E"/>
+                <path d="M22.7068 53.7743V50.8721H32.2048V53.7743L35.3709 53.7743V62.4808H32.2048V65.383H22.7068V62.4808L22.7068 59.5786H25.8728V62.4808H29.0388V59.5786H32.2048V56.6764H29.0388V53.7743H25.8728V56.6764H22.7068V62.4808L19.5406 62.4802V53.7737L22.7068 53.7743Z" fill="#28574E"/>
+                </svg>
+              <p class="service-card__description">
+                Emergency Ambulance
+              </p>
+            </article>
+          </li>
+          <li class="services__item">
+            <article class="services-card">
+              <svg class="services-card__image" width="74" height="69" viewBox="0 0 74 69" fill="none" xmlns="http://www.w3.org/2000/svg" loading="lazy">
+                <path d="M51.814 3.50134C46.777 3.50134 42.6937 7.30307 42.6937 11.9927V17.6537C42.6937 22.3433 46.777 26.145 51.814 26.145H63.9745C69.0115 26.145 73.0948 22.3433 73.0948 17.6537V11.9927C73.0948 7.30307 69.0115 3.50134 63.9745 3.50134H51.814Z" fill="none"/>
+                <path d="M9.25237 20.4841C4.21534 20.4841 0.132019 24.2858 0.132019 28.9755V40.2973C0.132019 44.987 4.21534 48.7887 9.25237 48.7887H24.453C29.49 48.7887 33.5733 44.987 33.5733 40.2973V28.9755C33.5733 24.2858 29.49 20.4841 24.453 20.4841H9.25237Z" fill="none"/>
+                <rect x="57.8943" y="3.50134" width="15.2006" height="8.49139" fill="none"/>
+                <path d="M42.6937 14.8232C42.6937 9.16225 45.7338 6.33179 51.814 6.33179H57.8943V9.16225L51.814 9.16225C48.7739 9.16225 45.7338 11.9927 45.7338 14.8232V23.3146H42.6937V14.8232Z" fill="#28574E"/>
+                <path d="M45.7338 26.145H42.6937V23.3146H39.6536V28.9755H36.6134V31.8059H39.6536V28.9755H45.7338V26.145Z" fill="#28574E"/>
+                <path d="M73.0948 17.6536C73.0948 23.3146 70.0547 26.145 63.9745 26.145H45.7338V23.3146H63.9745C67.0146 23.3146 70.0547 20.4841 70.0547 17.6536V14.8232H73.0948V17.6536Z" fill="#28574E"/>
+                <path d="M54.8541 17.6536H51.814V20.4841H54.8541V17.6536Z" fill="#28574E"/>
+                <path d="M60.9344 17.6536H57.8943V20.4841H60.9344V17.6536Z" fill="#28574E"/>
+                <path d="M13.599 29.4901H16.9658V32.5779H13.599V29.4901Z" fill="#28574E"/>
+                <path d="M13.599 38.7534H23.6993V41.8412H13.599V38.7534Z" fill="#28574E"/>
+                <path d="M10.2322 35.6657H13.5989L13.599 38.7534L10.2322 38.7534V35.6657Z" fill="#28574E"/>
+                <path d="M23.6992 35.6657H27.0659V38.7534L23.6993 38.7534L23.6992 35.6657Z" fill="#28574E"/>
+                <path d="M20.3325 29.4901H23.6993V32.5779H20.3325V29.4901Z" fill="#28574E"/>
+                <path d="M3.17214 32.7494V39.0394H0.132019V32.7494C0.132019 26.4595 3.44857 23.3146 10.0815 23.3146H23.3474L23.3474 26.145H10.0815C6.76503 26.1451 3.17214 29.6045 3.17214 32.7494Z" fill="#28574E"/>
+                <path d="M10.0816 48.7887C3.44868 48.7887 0.132019 45.3293 0.132019 39.0394H3.17214C3.17214 43.1278 6.21225 45.9583 10.6344 45.9583L30.5332 45.9583V48.7887L10.0816 48.7887Z" fill="#28574E"/>
+                <path d="M36.6134 48.7887H33.5733V32.7494C33.5733 26.145 30.5332 23.3146 23.3474 23.3146L23.3474 26.145C27.4931 26.145 30.5332 28.9755 30.5332 32.7494V48.7887H33.5733V51.6192L36.6134 51.6192V48.7887Z" fill="#28574E"/>
+                <path d="M30.5332 11.9927C27.4931 11.9927 24.453 14.8232 24.453 17.6536V23.3145H21.4128V17.6536C21.4128 11.9927 24.453 9.16223 30.5332 9.16223H45.7338V11.9927L30.5332 11.9927Z" fill="#28574E"/>
+                <path d="M21.4128 60.1105C21.4128 65.7715 24.453 68.6019 30.5332 68.6019H36.6134V65.7715H30.5332C27.4931 65.7715 24.453 62.941 24.453 60.1105V45.9582H21.4128V60.1105Z" fill="#28574E"/>
+                <path d="M48.7739 60.1105C48.7739 62.941 45.7338 65.7715 42.6937 65.7715V68.6019C48.7739 68.6019 51.814 65.7715 51.814 60.1105V26.145H48.7739V60.1105Z" fill="#28574E"/>
+                <path d="M39.6535 60.1105H33.5733V62.941H39.6535V60.1105Z" fill="#28574E"/>
+                <path d="M60.9346 3.50136V0.670898H70.0549V3.50136L73.095 3.50136V11.9927H70.0549V14.8232H60.9346V11.9927L60.9346 9.16228H63.9747V11.9927H67.0148V9.16228H70.0549V6.33182H67.0148V3.50136H63.9747V6.33182H60.9346V11.9927L57.8943 11.9922V3.5008L60.9346 3.50136Z" fill="#28574E"/>
+                </svg>
+              <p class="service-card__description">
+                Online Appointment
+              </p>
+            </article>
+          </li>
+          <li class="services__item">
+            <article class="services-card">
+              <svg class="services-card__image" width="80" height="78" viewBox="0 0 80 78" fill="none" xmlns="http://www.w3.org/2000/svg" loading="lazy">
+                <path d="M70.2364 56.5085C74.0114 54.2347 76.5293 50.1461 76.5293 45.4803C76.5293 38.3393 70.6312 32.5504 63.3555 32.5504C56.0797 32.5504 50.1816 38.3393 50.1816 45.4803C50.1816 50.1461 52.6996 54.2347 56.4746 56.5085C54.7195 57.2215 53.1036 58.2084 51.7113 59.4382C48.6231 62.1662 46.8881 65.866 46.8881 69.7239V77.8051H79.8228V69.7239C79.8228 65.866 78.0879 62.1662 74.9996 59.4382C73.6074 58.2084 71.9915 57.2215 70.2364 56.5085Z" fill="none"/>
+                <path d="M30.4207 33.3143H33.7142V43.047H30.4207V33.3143Z" fill="#28574E"/>
+                <path d="M30.4207 46.2912H33.7142V49.5355H30.4207V46.2912Z" fill="#28574E"/>
+                <path d="M33.7142 20.3374V17.0931C40.3012 17.0931 43.5946 20.3374 43.5946 26.8258L40.3012 26.8258C40.3012 23.5816 37.0077 20.3374 33.7142 20.3374Z" fill="#28574E"/>
+                <path d="M33.7142 33.3143L33.7142 36.5585C40.3012 36.5585 43.5946 33.3143 43.5946 26.8258L40.3012 26.8258C40.3012 30.0701 37.0077 33.3143 33.7142 33.3143Z" fill="#28574E"/>
+                <path d="M33.7142 20.3374V17.0931C27.1273 17.0931 23.8338 20.3374 23.8338 26.8258L27.1273 26.8258C27.1273 23.5816 30.4208 20.3374 33.7142 20.3374Z" fill="#28574E"/>
+                <path d="M56.8122 6.69043L17.4655 6.69043V9.87514L56.8122 9.87514C60.0911 9.87514 63.37 13.0598 63.37 16.2446V35.3528H66.6489V16.2446C66.6489 9.87514 63.37 6.69043 56.8122 6.69043Z" fill="#28574E"/>
+                <path d="M17.2469 55.1776C14.0992 55.1776 10.66 52.2954 10.66 49.2381V15.6076H7.36649V49.2381C7.36649 55.3528 10.5142 58.4101 16.8097 58.4101L35.6962 58.4101V55.1776H17.2469Z" fill="#28574E"/>
+                <path d="M38.057 58.4101V55.1776L44.3524 55.0665V58.4101H38.057Z" fill="#28574E"/>
+                <path d="M50.1816 42.2479C50.1816 35.7829 53.4751 32.5504 60.062 32.5504H66.6489C73.2359 32.5504 76.5293 35.7829 76.5293 42.2479H79.8228V48.7128H76.5293C76.5293 55.1778 73.2359 58.4102 66.6489 58.4102V55.1778C69.9424 55.1778 73.2359 51.9453 73.2359 48.7128V42.2479C73.2359 39.0154 69.9424 35.7829 66.6489 35.7829H60.062C56.7685 35.7829 53.4751 39.0154 53.4751 42.2479V48.7128H46.8881V42.2479H50.1816Z" fill="#28574E"/>
+                <rect x="0.779541" y="3.45813" width="16.4673" height="9.69744" fill="none"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.07302 3.46939V0.225586L13.9535 0.225586V3.45779H17.2469L17.2469 13.2028H13.9535V16.4466H4.07302V13.2028H0.779541V3.46996L4.07302 3.46939ZM7.36653 13.2023V9.95804H4.07305V6.71366H7.36653V3.46986H10.6599V6.71366H13.9534V6.69027L13.9534 9.9585L10.6599 9.95804V13.2023H7.36653Z" fill="#28574E"/>
+                </svg>
+              <p class="service-card__description">
+                Call Center
+              </p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section container">
+    <header class="section__header">
+      <h2 class="section__title">
+        Meet our Doctors
+      </h2>
+      <p class="section__lorem">Well  qualified doctors are ready to serve you</p>
+    </header>
+    <div class="section__body">
+      <div class="personal">
+        <ul class="personal__list staff-grid">
+          <li class="personal__item">
+            <article class="personal__card">
+              <div class="personal__card-online">
+                <p>Available</p>
+              </div>
+              <div class="personal__card-bg">
+                <img src="./img/doctors/card1.svg" alt="Doctor" loading="lazy">
+              </div>
+              <div class="personal__card-title">
+                <h3 class="card-title">Dr. Abaid Ur Rehman</h3>
+                <p class="card-lorem">Anesthesiologist</p>
+              </div>
+              <div class="personal__card-reviews">
+                
+              </div>
+              <buttons class="personal__buttons button button--card" type="button">
+                Book an Appointment
+              </buttons>
+            </article>
+          </li>
+          <li class="personal__item">
+            <article class="personal__card">
+              <div class="personal__card-online">
+                <p>Available</p>
+              </div>
+              <div class="personal__card-bg">
+                <img src="./img/doctors/card2.svg" alt="Doctor" loading="lazy">
+              </div>
+              <div class="personal__card-title">
+                <h3 class="card-title">Dr. Sharina Khan</h3>
+                <p class="card-lorem">Gynologist</p>
+              </div>
+              <div class="personal__card-reviews">
+                
+              </div>
+              <buttons class="personal__buttons button button--card" type="button">
+                Book an Appointment
+              </buttons>
+            </article>
+          </li>
+          <li class="personal__item">
+            <article class="personal__card">
+              <div class="personal__card-online">
+                <p>Available</p>
+              </div>
+              <div class="personal__card-bg">
+                <img src="./img/doctors/card3.svg" alt="Doctor" loading="lazy">
+              </div>
+              <div class="personal__card-title">
+                <h3 class="card-title">Dr. Syed Mehmood</h3>
+                <p class="card-lorem">Pain Specialist</p>
+              </div>
+              <div class="personal__card-reviews">
+                
+              </div>
+              <buttons class="personal__buttons button button--card" type="button">
+                Book an Appointment
+              </buttons>
+            </article>
+          </li>
+          <li class="personal__item">
+            <article class="personal__card">
+              <div class="personal__card-online">
+                
+                <p>Available</p>
+              </div>
+              <div class="personal__card-bg">
+                <img src="./img/doctors/card4.svg" alt="Doctor" loading="lazy">
+              </div>
+              <div class="personal__card-title">
+                <h3 class="card-title">Dr. Shahzad Karim</h3>
+                <p class="card-lorem">Radiologist</p>
+              </div>
+              <div class="personal__card-reviews">
+                
+              </div>
+              <buttons class="personal__buttons button button--card" type="button">
+                Book an Appointment
+              </buttons>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="section container">
+    <header class="section__header">
+      <h2 class="Subscribe To Our Newsletter">
+        Subscribe To Our Newsletter
+      </h2>
+      <p class="section__lorem">Subscribe To Our Newsletter</p>
+    </header>
+
+    <div class="section__newsletter">
+      <div class="newsletter__content">
+        <form action="" class="newsletter__content__form" method="post" id="newsletter-form">
+          <label class="form-title" for="email">For Newsletter</label>
+          <input class="form-input" placeholder="Enter your email here" id="email" name="user-mail-subscribe" type="text">
+          <span class="error-message" id="email-error"></span>
+          <button class="newsletter__content-button buttoun" type="submit" id="submit-button" disabled>Subscribe</button>
+        </form>
+      </div>
+    </div>
+</section>
+
+ </main>
+
+ 
+ <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__section footer__section--about">
+      <h3 class="footer__title">About Medipocket</h3>
+      <p class="footer__text">
+        MediPocket is a cross-border care USA platform bridging the gap in speciality care 
+        by connecting patients around the world from their homes to the top hospitals and 
+        specialists in the USA.
+      </p>
+    </div>
+    <div class="footer__section footer__section--links">
+      <h3 class="footer__title">Useful Link</h3>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Second Opinion</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Treatment in USA</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Clinal Trial</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">USA Hospital</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Blogs</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Medical Intake Form</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+ <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+    <form class="mobile-overlay__close-button-wrapper" method="dialog">
+      <button class="mobile-overlay__close-button cross-button" type="submit">
+        <span class="visually-hidden">Close navigation menu</span>
+      </button>
+    </form>
+    <div class="mobile-overlay__body">
+      <ul class="mobile-overlay__list">
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">Second Opinion</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">Medical Travel</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">Clinical Trials</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">Membership Goal</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">Testimonials</a>
+        </li>
+      </ul>
+    </div>
+  </dialog>
+
+  <script src="./js/form.js"></script>
+</body>
+</html>

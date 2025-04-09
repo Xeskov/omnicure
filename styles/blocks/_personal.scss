@@ -1,0 +1,125 @@
+.personal {
+    
+
+    &__list {
+        @include mobile {
+            justify-content: center;
+        }
+    }
+
+    &__item {
+        
+        
+    }
+
+    &__card {
+        @include tablet {
+            max-width: 360px;
+            max-height: 420px;
+        }
+        @include mobile {
+            max-width: 300px;
+            max-height: 360px;
+        }
+
+        border-radius: var(--border-radius-alt);
+        background-color: var(--color--light);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+        width: 420px;
+        height: 500px;
+
+        &-online {
+            width: 92px;
+            height: 22px;
+            background-color: #EDEDED;
+            border-radius: var(--border-radius);
+            font-size: 11px;
+            letter-spacing: 0.8px;
+            text-align: center;
+            line-height: 1.5rem;
+            position: relative;
+            left: -23%;
+            margin-bottom: 0.3rem;
+
+            &::before {
+                content: ' ';
+                position: absolute;
+                border-radius: var(--border-radius);
+                width: 6px;
+                height: 6px;
+                background-color: #C4C4C4;
+                left: 10%;
+                top: 40%;
+            }
+
+        }
+
+        &-bg {
+            @include mobile {
+                max-width: 260px;
+                max-height: 160px;
+            }
+            @include tablet {
+                max-width: 280px;
+                max-height: 190px;
+            }
+            width: 300px;
+            height: 200px;
+            background-color: var(--color-green);
+            border-radius: var(--border-radius);
+            
+
+
+            & > img {
+                @include mobile {
+                    max-width: 260px;
+                    max-height: 160px;
+                }
+                @include tablet {
+                    max-width: 280px;
+                    max-height: 190px;
+                }
+                width: 300px;
+                height: 200px;
+
+            }
+
+        }
+        
+
+        &-title {
+            padding-top: 1.2rem;
+            
+        }
+
+        &-reviews {
+
+        }
+    }
+
+    &__buttons {
+        @include mobile {
+            max-height: 40px;
+            margin-top: 10px;
+        }
+        height: 48px;
+        margin-top: 30px;
+
+    }
+}
+.card-title {
+
+}
+.card-lorem {
+    text-align: center;
+    color: var(--color-gray);
+    line-height: 2rem;
+    
+    
+}
+.button {
+}

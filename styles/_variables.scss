@@ -1,0 +1,29 @@
+:root {
+    --color-green: #28574E;
+    --color-light: #FFFFFF;
+    --color-blue: #1E232F;
+    --color-gray: #757575;
+    --color-gray-alt: #bdbdbd;
+    --color-dark: #000;
+    --color-error: #ce5151; 
+
+    --border-green: 1px solid var(--color--light);
+    --border-radius: 30px;
+    --border-radius-alt: 15px;
+    --border-radius-buttons: 25px;
+
+    --font-family-base: 'Outfit', sans-serif;
+    --font-family-alt: 'Merriweather', sans-serif;
+
+    --container-widths: 1250px;
+    --container-padding-x: 20px;
+
+    --section-padding-y: 75px;
+
+    --input-height: 77px;
+    --buttons-height: 56px;
+
+    --transition-duration: 0.2s;
+
+
+}

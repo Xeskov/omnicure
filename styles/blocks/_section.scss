@@ -1,0 +1,28 @@
+.section {
+
+    
+    &__body {
+        
+    }
+
+    &__header {
+        @include flex-center;
+        flex-direction: column;
+        margin: 60px auto;
+        @include mobile {
+            margin: 50px auto;
+        }
+        
+
+    }
+
+    &__title {
+
+    }
+
+    &__lorem {
+        padding-top: 1rem;
+        text-align: center;
+        color: var(--color-gray);
+    }
+}

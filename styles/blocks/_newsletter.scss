@@ -1,0 +1,62 @@
+.section {
+    
+
+    &__newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        background-color: #F2F2F2;
+        border-radius: var(--border-radius-alt);
+        margin-bottom: 100px; // убрать
+        
+        height: 200px;
+        
+    }
+}
+.newsletter {   
+
+    &__content {
+        display: flex;
+
+        &-title {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 500;
+        }
+        
+        
+
+         &-button {
+            background-color: var(--color-green);
+            border-radius: var(--border-radius-buttons);
+            color: var(--color-light);
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.3s ease;
+
+            &:disabled {
+                background-color: var(--color-gray-alt);
+                cursor: not-allowed;
+              }
+        }
+
+    }
+    
+}
+.error {
+  border: 2px solid var(--color-error);
+}
+
+.error-message {
+    color: var(--color-error);
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  // Стили для кнопки отправки в отключенном состоянии
+  #submit-button:disabled {
+    background-color: var(--color-gray-alt);
+    cursor: not-allowed;
+  }
